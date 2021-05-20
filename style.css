@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: url('./header.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+hr {
+  border: 2px green solid;
+  width: 2rem;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
